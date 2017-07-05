@@ -1,0 +1,224 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/header"
+        android:orientation="horizontal"
+        android:background="@color/colorBlue1"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="87dp"
+            android:textColor="#FFF"
+            android:textSize="40sp"
+            android:text="facebook"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF0000"
+        android:orientation="horizontal"
+
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/errormsg"
+            android:layout_width="match_parent"
+            android:layout_height="87dp"
+            android:textColor="#FFF"
+            android:textSize="10sp"
+            android:text=""
+
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_weight="1128.84">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="bottom"
+            android:id="@+id/content"
+
+            android:background="#ebf0f4"
+            >
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Username"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:text="info@baabtra.com"
+                android:id="@+id/uname"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="password"
+
+                android:height="50dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:text="Thisistrue"
+                android:id="@+id/pwd"
+                >
+            </EditText>
+            <Button  android:text="Login"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:id="@+id/login"
+                >
+            </Button>
+            <Button  android:text="Create new account"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+
+                android:layout_marginBottom="10dp"
+                android:id="@+id/register"
+                >
+            </Button>
+
+            <Button  android:text="Find current location"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+
+                android:layout_marginBottom="10dp"
+                android:id="@+id/getlocation"
+                >
+            </Button>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="forgotpassword, help111"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:gravity="center"
+                />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_height="104dp"
+        android:background="#fcfcfc">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true">
+            <TableRow
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="match_parent" >
+                <TextView android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/english_uk"
+                    android:textColor="@color/text_grey"/>
+                <TextView android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/malayalam"
+                    android:textColor="@color/text_grey"/>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="match_parent" >
+
+                <TextView android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/tamil"
+                    android:textColor="@color/text_grey"/>
+
+                <TextView android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/kannada"
+                    android:textColor="@color/text_grey"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="match_parent" >
+
+                <TextView android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/hindi"
+                    android:textColor="@color/text_grey"/>
+
+                <TextView android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/urudu"
+                    android:textColor="@color/text_grey"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="match_parent" >
+
+                <TextView android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/bengali"
+                    android:textColor="@color/text_grey"/>
+
+                <TextView android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/more"
+                    android:textColor="@color/text_grey"/>
+
+            </TableRow>
+
+        </TableLayout>
+
+        <TextView
+            android:text="@string/copywright"
+            android:textColor="@color/text_grey"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2" />
+    </LinearLayout>
+
+</LinearLayout>
+

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorBlue1">#340ae8</color>
+    <color name="violet">#EBCAFE</color>
+    <color name="body_grey">#ECEFF5</color>
+    <color name="button">#6078AA</color>
+    <color name="NEW">#5A91FA</color>
+    <color name="FOGOTPASSWORD_TEXT_COLOR">#D1D9E9</color>
+    <color name="LANGUAGE_COLOR">#8D9FC3</color>
+    <color name="text_grey">#ABB8D3</color>
+    <color name="actionbar">#395694</color>
+</resources>

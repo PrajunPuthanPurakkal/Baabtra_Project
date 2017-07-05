@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FB login with service</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="english_uk">English (UK)</string>
+    <string name="malayalam">മലയാളം</string>
+    <string name="tamil">தமிழ்</string>
+    <string name="kannada">ಕನ್ನಡ</string>
+    <string name="hindi">हिन्दी</string>
+    <string name="urudu">اردو</string>
+    <string name="bengali">বাংলা</string>
+    <string name="more">More language...</string>
+
+
+    <string name="login">Log in</string>
+    <string name="fb">Facebook</string>
+    <string name="forgot_pasussword">Forgotten Password? Help Center</string>
+    <string name="username">Email address or Phone number</string>
+    <string name="password_hint">Password</string>
+    <string name="create">Create new Account</string>
+    <string name="copywright">Facebook &#169; 2017</string>
+
+</resources>
